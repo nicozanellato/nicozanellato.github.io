@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Nico's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo"><strong>Nico</strong></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+								<li><a href="index.html">Home</a></li>
+							<li><a href="landing.html">Projects</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="moreaboutme.html">More About Me</a></li>
+							<li><a href="nonworkrelated.html">Non-work related stuff</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main" class="alt">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h1>Scraping Beers</h1>
+									</header>
+									<!--<span class="image main"><img src="images/pic11.jpg" alt="" /></span> -->
+									<p>
+										This is my first data science project, scraping craft beer data and applying machine learning.
+										</p>
+										<p>
+										Being a craft beer lover I started using the app Untappd that allows you to rate and share the beers you’re drinking with your mates and see interesting breweries, new beers and events. As it is an app used all over the world, breweries and pubs list their beers on it and people can rate them. I also found the app very useful for when I am travelling. It highlights local breweries and pubs and their beer listing on the map, so that you can find and drink some local goodness.
+										</p>
+										<p>
+										I thought it would be amazing if I could get some of their data, create some data visualisation and apply machine learning on it! Also, I wanted to work on something that I love and stem away from the box standard datasets used in data science tutorials such as Iris. There is nothing wrong with the Iris dataset, it’s a great way to start per se, but I wanted to do something a bit more original and creative.
+										</p>
+										<p>
+										Untppd also has  a website, so I decided to give web scraping a go, by scraping all the top 50 breweries and their beer listings for every country. I managed to scrape about 40k different beers from all over the world!
+
+										After scraping the website, I have created an interactive visualisation in Tableau and uploaded it on my Tableau Public profile, which can be seen here below. More info on how I went about scraping the website and applied machine learning can be found after the dashboard. Full code available <a href="index.html">on my GitHub page</a>.
+										</p>
+										<div class='tableauPlaceholder' id='viz1585912883219' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;Beer_Project&#47;Map2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Beer_Project&#47;Map2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;Beer_Project&#47;Map2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1585912883219');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1000px';vizElement.style.height='1927px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+										<br>
+										<p>
+										I have applied K-means clustering algorithm to the the dataset to predict the beer rating of a new beer, given the brewery, ABV (alcohol content), IBU (International Bitterness Unit) and beer type. I managed to reach an accuracy score of 88%! Not too bad really!
+
+										Feedbacks are welcome! Please let me know what you think or what can be improved.
+									</p>
+								</div>
+							</section>
+
+					</div>
+<br>
+				<!-- Contact -->
+					
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="mailto:zanellato.nico@gmail.com?Subject=Hello%20Nico" target="_top">zanellato.nico@gmail.com</a>
+									</div>
+								</section>
+							
+							
+							</section>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<center><ul class="icons">
+								<li><a href="https://github.com/nicozanellato" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.linkedin.com/in/nicolozanellato/" target="_blank" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Nicolò Zanellato 2020</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul></center>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
