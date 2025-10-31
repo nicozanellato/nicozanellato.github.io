@@ -14,8 +14,6 @@ This website serves as my digital portfolio, highlighting my work in:
 
 - **Home** (`index.html`) - Introduction and overview
 - **Projects** (`projects.html`) - Showcase of data science and analytics projects
-- **Blog** (`blog.html`) - Articles and updates
-- **About Me** (`moreaboutme.html`) - Professional background and CV
 - **Personal Interests** (`nonworkrelated.html`) - Hobbies including rugby, music, and travel
 
 ## Technologies Used
