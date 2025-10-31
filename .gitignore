@@ -1,0 +1,20 @@
+# Claude Code configuration and files
+.claude/
+.claude_code/
+claude_desktop_config.json
+claude-code.json
+
+# Python virtual environments (from Pipfile)
+.venv/
+venv/
+env/
+Pipfile
+Pipfile.lock
+
+# General development files
+.DS_Store
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
